@@ -1,0 +1,170 @@
+.aboutus{
+    overflow-x: hidden;
+}
+.ab2{
+    height: 100vh;
+    width: 100%;
+    background: url('../../../public/img/car1.png');
+    background-position: center;
+    background-repeat:repeat;
+    background-size: cover;
+    z-index: -1;
+
+}
+
+.ab4{
+    /* background: #F4F4ED; */
+    height: 100%;
+    width: 100%;
+}
+.ab41{
+    padding: 5%;
+}
+.ab01{
+    color: #F4F4ED;
+        text-align: center;
+    font-family: Recoleta;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; 
+}
+.ab42{
+    color: #1E96FC;
+    font-family: Organica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+}
+.ab43{
+    color: #1E1E1E;
+    font-family: Recoleta;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+    margin-top: 3%;
+}
+.ab44{
+    color: #1E1E1E;
+    font-family: Organica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    margin-top: 5%;
+
+}
+
+
+.ab5{
+  width:100% ;
+  height: 100%;
+    
+}
+.ab51{
+    width: 100%;
+    border-radius: 7px;
+    background: #D9D9D9;
+}
+.ab51 img{
+     width: 100%;
+}
+
+.c054{
+    margin-bottom: 5%;
+}
+#ab5{
+    display: none;
+}
+#ab6{
+    display:block;
+}
+#abcars{
+    margin-top: 5%;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+
+
+@media (max-width:1200px){
+    #abcars{
+        margin-top: 5%;
+        height: 100%;
+    }
+    
+}
+  
+
+
+.ccc{
+    width: 60vh;
+    border-radius: 7px;
+    background-color: #c2c2c2ae;
+    height: 30vh;
+}
+@media (max-width:500px){
+    /* #abcars1{
+        margin-top: -10%;
+    } */
+    #ab5{
+        display:block;
+        margin-top: 5%;
+    }
+    #ab6{
+        display:none;
+    }
+    .ab44{
+        color: #1E1E1E;
+        font-family: Organica;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+    }
+    .ab2{
+        background: url('../../../public/img/car01.png');
+        background-position: center;
+        background-repeat:repeat;
+        background-size: cover;
+    }
+    .ab42{
+        color: #1E96FC;
+        font-family: Organica;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.28px;
+        text-transform: uppercase;
+    }
+    .ab43{
+        color: #1E1E1E;
+        font-family: Recoleta;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; 
+    }
+    #abcars2{
+        height: 100%;
+    }
+    .c6{
+        width: 90%;
+        height: 100%;
+     }
+     .c61{
+        margin-top: 5%;
+     }
+     .ccc{
+        width: 40vh;
+        height: 50vh;
+     }
+     .ccc div{
+        padding: 5%;
+     }
+}

@@ -1,0 +1,236 @@
+.f1{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    background: #1E96FC;
+    overflow-x: hidden;
+
+}
+.f2{
+    width: 100%;
+    height: 100%;
+    
+}
+.f3{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    padding-top: 5%;
+    padding-left: 5%;
+   
+}
+.f31{
+      width: 30%;
+}
+.f311{
+    color: #F4F4ED;
+    font-family: Recoleta;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.f312{
+    color: #F4F4ED;
+    font-family: Organica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px; 
+    letter-spacing: 0.32px;
+    width: 80%;
+}
+.f313{
+    fill: #F4F4ED;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.f32{
+    width: 10%;
+    /* border: 1px solid red; */
+}
+.f321{
+    color: #F4F4ED;
+    font-family: Recoleta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.f322{
+    color: #F4F4ED;
+    font-family: Organica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;     
+}
+.f33{
+    width: 30%;
+    /* border: 1px solid red; */
+
+}
+.f33 div{
+    /* margin-top: 1%; */
+}
+.f331{
+    color: #F4F4ED;
+    font-family: Recoleta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.f332 a{
+    color: #F4F4ED;
+    font-family: Organica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.f34{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+ 
+}
+.f341 {
+    border-radius: 139px;
+    border: 2px solid #F4F4ED;
+    width: 206px;
+    height: 45px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+
+     justify-content: center;
+}
+.f342 a{
+    color: #F4F4ED;
+    font-family: Organica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.f4{
+    display: flex;
+    height: 10vh;
+    align-items:center;
+}
+.f41{
+    color: #F4F4ED;
+    text-align: center;
+    font-family: Organica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+    padding-left: 5%;
+
+}
+.hr{
+    color: aliceblue;
+}
+@media (max-width:1000px){
+    .f3{
+        height: 100%;
+    }
+    .f32{
+        display: none;
+    }
+    .f31{
+        width: 30%;
+
+    }
+    .f33{
+        width: 40%;
+    }
+    .f34{
+        width: 20%;
+    }
+}
+
+@media (max-width:700px){
+    .f3{
+         display: flex;
+         flex-direction: column;
+    }
+    .f31{
+        width: 100%;
+
+    }
+    .f33{
+        width: 80%;
+        margin-top: 10%;
+    }
+    .f34{
+        width: 50%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: start;
+
+    }
+    .f311{
+        color: #F4F4ED;
+        font-family: Recoleta;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .f312{
+        color: #F4F4ED;
+        font-family: Organica;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px; 
+        letter-spacing: 0.32px;
+    }
+    .f331{
+        color: #F4F4ED;
+        font-family: Recoleta;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+     }
+     .f332 a{
+        color: #F4F4ED;
+        font-family: Organica;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+     }
+     .f342 a{
+        color: #F4F4ED;
+        font-family: Organica;
+        font-size: 14.447px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+     }
+     .f4{
+        margin-bottom: -15%;
+     }
+     .f41{
+        color: #F4F4ED;
+        text-align: center;
+        font-family: Organica;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.32px;
+        text-transform: uppercase;
+     }
+}

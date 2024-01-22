@@ -1,0 +1,232 @@
+.navnav{
+    position: absolute;
+}
+.m1{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+.m3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.m31{
+  width: 50%;
+  height: 100vh;
+}
+.m311{
+    width: 100%;
+    height: 100%;
+}
+.m311 img{
+      width: 100%;
+      height: 100%;
+}
+.m32{
+    background: #1E96FC;
+      width: 50%;
+      height: 100vh;
+
+    }
+    .m321{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 15%;
+        margin-top: 10%;
+
+    }
+    .m323 a{
+        color: #F4F4ED;
+        font-family: Recoleta;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 60px; 
+    }
+.m322{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+}
+.fluslogoa{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    margin-top: 15%;
+}
+.fluslogo1a {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width:50%;
+    margin-top: 5%;
+}
+.f33a{
+    width: 50%;    
+    margin-top: 15%;
+
+}
+.flusa{
+    color: #F4F4ED;
+    font-family: Recoleta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.f331a{
+    color: #F4F4ED;
+    font-family: Recoleta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.f332a{
+    margin-top: 3%;
+    color: #F4F4ED;
+    font-family: Organica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+    
+
+
+.mini01{
+    display: none;
+}
+
+@media (max-width:1000px){
+    .navnav{
+        background-color: #1E96FC;
+        position: relative;
+    }
+    .mini01{
+        display:block;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+    .mini011{
+        text-align: center;
+
+    }
+    .mini011 a{
+        color: #F4F4ED;
+        font-family: Organica;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .m1{
+        width: 100%;
+        height: 100%;
+    }
+    .m3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .m31{
+        display: none;
+      }
+      .nav01a a{
+        color: #D9D9D9;
+        font-family: Recoleta;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+        letter-spacing: -0.24px;
+      }
+      .m32{
+        background: #1E96FC;
+          width:100%;
+          height: 100%;
+    
+        }
+        .m321{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 0%;
+
+    
+        }
+        .m322{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            margin-bottom: 5%;
+        }
+}
+
+
+@media (max-width:500px){
+  .nav01aa   .menulogo{
+        color: #F4F4ED;
+        width: 100%;
+
+    }
+      #nav03a {
+        margin-top: 5%;
+      }
+   .m321{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 5%;
+    /* border: 1px solid red;
+ */
+}
+.m323{
+    margin-top: 3%;
+}
+.m323 a{
+    color: #F4F4ED;
+font-family: Recoleta;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+ 
+}
+.m322{
+    display: flex;
+    flex-direction: column;
+}
+.fluslogoa{
+    margin-left: -10%;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+
+
+}
+
+.f33a{
+    margin-left: 5%;
+    width: 100%;
+    margin-bottom: 5%;
+    height: 100%;
+    /* border: 1px solid red; */
+
+}
+.m1{
+    width: 100%;
+    height: 100vh;
+    background-color: #1E96FC;
+}
+}

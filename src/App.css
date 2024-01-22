@@ -1,0 +1,12 @@
+@font-face{
+  font-family: Recoleta;
+  src:url("../public/fonts/Assets/Recoleta/Recoleta-Medium.woff")
+}
+@font-face{
+  font-family:  Organica;
+  src:url( "../public/fonts/Assets/Organica/Organica-Regular.woff");
+}
+a{
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,293 @@
+
+
+.con1{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background: #F4F4ED;
+}
+.con2{
+    width: 100%;
+    height: 100%;
+    
+}
+.con3{
+    
+    display: flex;
+
+    width: 100%;
+    height: 120vh;
+
+}
+.con31{
+}
+
+.con003{
+    width: 90%;
+    height: 100%;
+    /* padding: 5%; */
+}
+.con0031{
+    width: 120%;
+    height: 70vh;
+    /* padding: 5%; */
+    padding-left: 10%;
+    padding-top: 5%;
+
+
+}
+.con0033{
+    width: 70%;
+    height: 70vh;
+    padding: 3%;
+ 
+
+}
+.con0032{
+    width: 200%;
+    height: 30vh;
+   
+
+}
+.con4{
+    color: #1E1E1E;
+    font-family: Recoleta;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 69px; 
+}
+.con5{
+    color: #1E1E1E;
+    font-family: Organica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    width: 70%;
+}
+.con6{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+  
+}
+.con7{
+    width: 30%;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 3%;
+    
+}
+.con8{
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 30%;
+    height: 100%;
+}
+.con71{
+    color: #1E1E1E;
+    font-family: Recoleta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.con72{
+    color: #1E1E1E;
+    font-family: Organica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 3%;
+
+}
+
+.con81{
+    color: #1E1E1E;
+    font-family: Recoleta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.con82{
+    color: #1E1E1E;
+    font-family: Organica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    padding-top: 3%;
+    width: 80%;
+
+
+}
+#p49{
+    width: 100%;
+}
+#p4912{
+   width: 95%;
+   background: #F4F4ED;
+}
+#p481{
+    background: #F4F4ED;
+}
+@media (max-width:1250px){
+   .con1{
+    /* border: 3px solid red; */
+   }
+   .con0031{
+    width: 120%;
+    height: 80vh;
+    /* padding: 5%; */
+
+
+}
+.con003{
+    width: 100%;
+    height: 100%;
+    /* padding: 5%; */
+}
+}
+@media (max-width:1000px){
+    .con1{
+     /* border: 3px solid red; */
+    }
+    .con3{
+    
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        height: 100%;
+    
+    }
+    .con0031{
+        width: 100%;
+        height: 100%;
+        padding: 5%;
+    
+    
+    }
+    .con5{
+        width: 90%;
+    }
+
+    .con0032{
+        width: 100%;
+        height: 35%;
+    
+    
+    }
+    .con6{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+    }
+    .con7{
+        width: 50%;
+        height: 100%;
+        margin-left: 5%;
+        margin-top: 5%;
+    
+      
+    }
+    .con8{
+        margin-left: 0%;
+        margin-top: 0%;
+        margin-left: 5%;
+        margin-top: 5%;
+    
+
+    }
+    .con0033{
+        width: 95%;
+        height: 100%;
+        padding: 3%;
+    
+    
+
+    }
+    .p50{
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width:500px){
+
+    .con6{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .con7{
+        width: 100%;
+        height: 100%;
+        margin-left: 3%;
+        margin-top: 3%;
+        
+    }
+    .con8{
+        margin-left: 3%;
+        margin-top: 3%;
+        width: 95%;
+        height: 100%;
+    }
+    .con82{
+        width: 100%;
+    }
+    .con4{
+        color: #1E1E1E;
+        font-family: Recoleta;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .con5{
+        color: #1E1E1E;
+        font-family: Organica;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px; 
+    }
+    .con71{
+        color: #1E1E1E;
+        font-family: Recoleta;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .con72{
+        color: #1E1E1E;
+        font-family: Organica;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .con81{
+        color: #1E1E1E;
+        font-family: Recoleta;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .con82{
+        color: #1E1E1E;
+        font-family: Organica;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; 
+    }
+
+}

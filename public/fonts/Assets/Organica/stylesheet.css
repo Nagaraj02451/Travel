@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Organica';
+    src: url('Organica-Light.eot');
+    src: local('Organica Light'), local('Organica-Light'),
+        url('Organica-Light.eot?#iefix') format('embedded-opentype'),
+        url('Organica-Light.woff2') format('woff2'),
+        url('Organica-Light.woff') format('woff'),
+        url('Organica-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Organica M';
+    src: url('OrganicaM-Bold.eot');
+    src: local('Organica M Bold'), local('OrganicaM-Bold'),
+        url('OrganicaM-Bold.eot?#iefix') format('embedded-opentype'),
+        url('OrganicaM-Bold.woff2') format('woff2'),
+        url('OrganicaM-Bold.woff') format('woff'),
+        url('OrganicaM-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Organica M';
+    src: url('OrganicaM-Regular.eot');
+    src: local('Organica M Regular'), local('OrganicaM-Regular'),
+        url('OrganicaM-Regular.eot?#iefix') format('embedded-opentype'),
+        url('OrganicaM-Regular.woff2') format('woff2'),
+        url('OrganicaM-Regular.woff') format('woff'),
+        url('OrganicaM-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Organica';
+    src: url('Organica-Bold.eot');
+    src: local('Organica Bold'), local('Organica-Bold'),
+        url('Organica-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Organica-Bold.woff2') format('woff2'),
+        url('Organica-Bold.woff') format('woff'),
+        url('Organica-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Organica';
+    src: url('Organica-Medium.eot');
+    src: local('Organica Medium'), local('Organica-Medium'),
+        url('Organica-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Organica-Medium.woff2') format('woff2'),
+        url('Organica-Medium.woff') format('woff'),
+        url('Organica-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Organica L';
+    src: url('OrganicaL-Regular.eot');
+    src: local('Organica L Regular'), local('OrganicaL-Regular'),
+        url('OrganicaL-Regular.eot?#iefix') format('embedded-opentype'),
+        url('OrganicaL-Regular.woff2') format('woff2'),
+        url('OrganicaL-Regular.woff') format('woff'),
+        url('OrganicaL-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Organica';
+    src: url('Organica-Italic.eot');
+    src: local('Organica Italic'), local('Organica-Italic'),
+        url('Organica-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Organica-Italic.woff2') format('woff2'),
+        url('Organica-Italic.woff') format('woff'),
+        url('Organica-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Organica R';
+    src: url('OrganicaR-BoldItalic.eot');
+    src: local('OrganicaR-BoldItalic'),
+        url('OrganicaR-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('OrganicaR-BoldItalic.woff2') format('woff2'),
+        url('OrganicaR-BoldItalic.woff') format('woff'),
+        url('OrganicaR-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Organica';
+    src: url('Organica-Thin.eot');
+    src: local('Organica Thin'), local('Organica-Thin'),
+        url('Organica-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Organica-Thin.woff2') format('woff2'),
+        url('Organica-Thin.woff') format('woff'),
+        url('Organica-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Organica';
+    src: url('Organica-SemiBoldItalic.eot');
+    src: local('Organica SemiBold Italic'), local('Organica-SemiBoldItalic'),
+        url('Organica-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Organica-SemiBoldItalic.woff2') format('woff2'),
+        url('Organica-SemiBoldItalic.woff') format('woff'),
+        url('Organica-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Organica T';
+    src: url('OrganicaT-Regular.eot');
+    src: local('Organica T Regular'), local('OrganicaT-Regular'),
+        url('OrganicaT-Regular.eot?#iefix') format('embedded-opentype'),
+        url('OrganicaT-Regular.woff2') format('woff2'),
+        url('OrganicaT-Regular.woff') format('woff'),
+        url('OrganicaT-Regular.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Organica R';
+    src: url('OrganicaR-Italic.eot');
+    src: local('Organica R Italic'), local('OrganicaR-Italic'),
+        url('OrganicaR-Italic.eot?#iefix') format('embedded-opentype'),
+        url('OrganicaR-Italic.woff2') format('woff2'),
+        url('OrganicaR-Italic.woff') format('woff'),
+        url('OrganicaR-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Organica';
+    src: url('Organica-SemiBold.eot');
+    src: local('Organica SemiBold'), local('Organica-SemiBold'),
+        url('Organica-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Organica-SemiBold.woff2') format('woff2'),
+        url('Organica-SemiBold.woff') format('woff'),
+        url('Organica-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Organica';
+    src: url('Organica-Regular.eot');
+    src: local('Organica Regular'), local('Organica-Regular'),
+        url('Organica-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Organica-Regular.woff2') format('woff2'),
+        url('Organica-Regular.woff') format('woff'),
+        url('Organica-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Organica R';
+    src: url('OrganicaR-Bold.eot');
+    src: local('Organica R Bold'), local('OrganicaR-Bold'),
+        url('OrganicaR-Bold.eot?#iefix') format('embedded-opentype'),
+        url('OrganicaR-Bold.woff2') format('woff2'),
+        url('OrganicaR-Bold.woff') format('woff'),
+        url('OrganicaR-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Organica R';
+    src: url('OrganicaR-Regular.eot');
+    src: local('Organica R Regular'), local('OrganicaR-Regular'),
+        url('OrganicaR-Regular.eot?#iefix') format('embedded-opentype'),
+        url('OrganicaR-Regular.woff2') format('woff2'),
+        url('OrganicaR-Regular.woff') format('woff'),
+        url('OrganicaR-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
